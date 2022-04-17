@@ -1,0 +1,29 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: sca-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: route01
+          uri: lb://nacos-provider
+          predicates:
+            - Path=/nacos/provider/echo/**
+            - After=2020-12-31T23:59:59.789+08:00[Asia/Shanghai]
+          filters:
+            - StripPrefix=1
+    sentinel:
+      transport:
+        dashboard: localhost:8180
+      eager: true
+
+
+

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Apr 24 17:08:47 CST 2021
+sca-nacos-consumer-1.0-SNAPSHOT.pom>=
+sca-nacos-consumer-1.0-SNAPSHOT.jar>=

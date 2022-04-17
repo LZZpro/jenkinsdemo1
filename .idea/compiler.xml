@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sca-gateway" />
+        <module name="tomcateapp" />
+        <module name="sca-nacos-provider" />
+        <module name="sca-nacos-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-sca" target="8" />
+      <module name="sca-gateway" target="8" />
+      <module name="sca-nacos-consumer" target="8" />
+      <module name="sca-nacos-provider" target="8" />
+      <module name="tomcateapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tomcateapp" options="-parameters" />
+    </option>
+  </component>
+</project>

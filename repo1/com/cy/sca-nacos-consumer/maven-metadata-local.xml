@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.cy</groupId>
+  <artifactId>sca-nacos-consumer</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210424090847</lastUpdated>
+  </versioning>
+</metadata>

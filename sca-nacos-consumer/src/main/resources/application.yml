@@ -1,0 +1,16 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    sentinel:
+      transport:
+        port: 8099
+        dashboard: localhost:8180
+    nacos:
+      #server-addr: localhost:8848
+      discovery:
+        server-addr: localhost:8848
+
+

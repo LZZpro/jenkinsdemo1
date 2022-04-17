@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-sca.iml" filepath="$PROJECT_DIR$/01-sca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sca-gateway/sca-gateway.iml" filepath="$PROJECT_DIR$/sca-gateway/sca-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sca-nacos-consumer/sca-nacos-consumer.iml" filepath="$PROJECT_DIR$/sca-nacos-consumer/sca-nacos-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sca-nacos-provider/sca-nacos-provider.iml" filepath="$PROJECT_DIR$/sca-nacos-provider/sca-nacos-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tomcateapp/tomcateapp.iml" filepath="$PROJECT_DIR$/../tomcateapp/tomcateapp.iml" />
+    </modules>
+  </component>
+</project>
